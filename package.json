@@ -1,16 +1,16 @@
 {
   "name": "landing-page-event",
   "version": "1.0.0",
- 
+  "description": "Landing page for event countdown",
+  "main": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html styles/main.scss scripts/main.js",
+    "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0",
