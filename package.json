@@ -2,10 +2,10 @@
   "name": "landing-page-event",
   "version": "1.0.0",
   "description": "Landing page for event countdown",
-  "main": "src/index.html",
+ 
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "chmod +x ./node_modules/.bin/parcel && parcel build src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
