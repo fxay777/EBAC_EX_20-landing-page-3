@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Landing page for event countdown",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "prebuild": "chmod +x ./node_modules/.bin/parcel",
-    "build": "npx parcel build src/index.html",
+    "dev": "parcel src/index.html styles/main.scss scripts/main.js ",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
