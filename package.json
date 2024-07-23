@@ -4,7 +4,7 @@
   "description": "Landing page for event countdown",
   "scripts": {
     "dev": "parcel index.html styles/main.scss scripts/main.js ",
-    "build": "parcel build src/index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
