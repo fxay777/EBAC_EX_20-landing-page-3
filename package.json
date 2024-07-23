@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Landing page for event countdown",
   "scripts": {
-    "dev": "parcel src/index.html styles/main.scss scripts/main.js ",
+    "dev": "parcel index.html styles/main.scss scripts/main.js ",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
